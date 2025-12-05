@@ -11,7 +11,7 @@ h1, h2{
     font-family: "Abhaya Libre", serif;
     font-style: normal;;
     font-weight: bold;
-    font-size: 14pt;
+    font-size: 19px;
 }
 
 h3{
@@ -50,7 +50,7 @@ header nav ul {
     border-radius: 30px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    font-size: 10pt;
+    font-size: 13px;
     margin: 20px;
     align-items: center;
 }
@@ -86,7 +86,7 @@ header nav ul li a.active {
     font-family: "Titan One", sans-serif;
      font-weight: 90;
      font-style: normal;
-    font-size: 13pt;
+    font-size: 17px;
     color: #294E2A;
     background-color: #FCFFF5;
     border-radius: 30px;
@@ -104,7 +104,7 @@ header nav ul li a.active {
     header nav ul {
         margin: 18px;
         padding: 9px;
-        font-size: 12pt;
+        font-size: 16px;
     }
 
     header nav ul li a {
@@ -112,7 +112,7 @@ header nav ul li a.active {
     }
 
     .healthy {
-        font-size: 13pt;
+        font-size: 17px;
         padding: 7px 15px;
     }
 }
@@ -121,7 +121,7 @@ header nav ul li a.active {
     header nav ul {
         margin: 16px;
         padding: 8px;
-        font-size: 11pt;
+        font-size: 15px;
         border-radius: 28px;
     }
 
@@ -131,7 +131,7 @@ header nav ul li a.active {
     }
 
     .healthy {
-        font-size: 12pt;
+        font-size: 16px;
         padding: 7px 14px;
         border-radius: 28px;
     }
@@ -141,7 +141,7 @@ header nav ul li a.active {
     header nav ul {
         margin: 15px;
         padding: 8px;
-        font-size: 10pt;
+        font-size: 13px;
         border-radius: 26px;
     }
 
@@ -151,7 +151,7 @@ header nav ul li a.active {
     }
 
     .healthy {
-        font-size: 11pt;
+        font-size: 15px;
         padding: 6px 13px;
         border-radius: 26px;
     }
@@ -161,7 +161,7 @@ header nav ul li a.active {
     header nav ul {
         margin: 14px;
         padding: 7px;
-        font-size: 10pt;
+        font-size: 13px;
         border-radius: 24px;
     }
 
@@ -171,7 +171,7 @@ header nav ul li a.active {
     }
 
     .healthy {
-        font-size: 11pt;
+        font-size: 15px;
         padding: 6px 12px;
         border-radius: 24px;
     }
@@ -191,7 +191,7 @@ header nav ul li a.active {
     }
 
     .healthy {
-        font-size: 12pt;
+        font-size: 16px;
         padding: 5px 11px;
         border-radius: 22px;
     }
@@ -207,7 +207,7 @@ header nav ul li a.active {
         padding: 0;
         background-color: transparent;
         box-shadow: none;
-        font-size: 9pt;
+        font-size: 12px;
     }
 
     /* Prima voce: sopra da sola */
@@ -235,20 +235,20 @@ header nav ul li a.active {
         align-items: center;
     }
 
-    /* Bordo arrotondato solo agli estremi */
+
     header nav ul li:nth-child(2) { border-radius: 20px 0 0 20px; }
     header nav ul li:nth-child(3) { border-radius: 0; }
     header nav ul li:nth-child(4) { border-radius: 0 20px 20px 0; }
 
-    /* === Le 3 pilloline bianche restano invariabili! === */
+
     header nav ul li:nth-child(2) a,
     header nav ul li:nth-child(3) a,
     header nav ul li:nth-child(4) a {
-        background-color: #FCFFF5;      /* mantiene la pillolina bianca */
+        background-color: #FCFFF5;      
         border-radius: 30px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-        padding: 5px 15px;              /* stessa tua */
-        color: #457C2E;                 /* stesso colore */
+        padding: 5px 15px;             
+        color: #457C2E;                 
         text-decoration: none;
         transition: all 0.3s ease;
     }
@@ -260,16 +260,15 @@ header nav ul li a.active {
         color: #FCFFF5;
     }
 
-    /* Healthy rimane identica nelle font-size */
     .healthy {
         padding: 5px 10px;
         border-radius: 20px;
         margin-top: 20px;
-        font-size: 12pt;
+        font-size: 16px;
     }
 }
 
-/* === 600px === */
+
 @media screen and (max-width: 600px) {
 
     header nav ul { gap: 0; margin: 8px; }
@@ -289,7 +288,7 @@ header nav ul li a.active {
     .healthy { padding: 4px 9px; }
 }
 
-/* === 480px === */
+
 @media screen and (max-width: 480px) {
 
     header nav ul { gap: 0; margin: 6px; }
@@ -300,7 +299,6 @@ header nav ul li a.active {
         padding: 6px 0;
     }
 
-    /* Arrotondamento ridotto */
     header nav ul li:nth-child(2) { border-radius: 16px 0 0 16px; }
     header nav ul li:nth-child(3) { border-radius: 0; }
     header nav ul li:nth-child(4) { border-radius: 0 16px 16px 0; }
@@ -314,7 +312,7 @@ header nav ul li a.active {
     .healthy { padding: 4px 8px; }
 }
 
-/* === 400px === */
+
 @media screen and (max-width: 400px) {
 
     header nav ul { gap: 0; margin: 5px; }
@@ -332,7 +330,7 @@ header nav ul li a.active {
     .healthy { padding: 3px 7px; }
 }
 
-/* === 360px === */
+
 @media screen and (max-width: 360px) {
 
     header nav ul { gap: 0; margin: 4px; }
@@ -2720,7 +2718,7 @@ align-items: center;
 /* TABLET GRANDE - 1000px */
 @media screen and (max-width: 1024px) {
     .TM {
-        font-size: 22pt;
+        font-size: 29px;
     }
 
     .p p {
@@ -2792,7 +2790,7 @@ align-items: center;
 /* TABLET MEDIO - 900px */
 @media screen and (max-width: 900px) {
     .TM {
-        font-size: 20pt;
+        font-size: 27px;
     }
 
     .p p {
@@ -2875,7 +2873,7 @@ align-items: center;
 /* TABLET PICCOLO - 768px */
 @media screen and (max-width: 768px) {
     .TM {
-        font-size: 16pt;
+        font-size: 25px;
     }
 
     .p p {
@@ -3001,7 +2999,7 @@ align-items: center;
 /* MOBILE GRANDE - 640px */
 @media screen and (max-width: 640px) {
     .TM {
-        font-size: 14pt;
+        font-size: 22px;
     }
 
     .p p {
@@ -3107,7 +3105,7 @@ align-items: center;
 /* MOBILE MEDIO - 480px */
 @media screen and (max-width: 480px) {
     .TM {
-        font-size: 12pt;
+        font-size: 20px;
     }
 
     .p p {
@@ -3193,7 +3191,7 @@ align-items: center;
 /* MOBILE PICCOLO - 375px */
 @media screen and (max-width: 375px) {
     .TM {
-        font-size: 12pt;
+        font-size: 18px;
     }
 
     .p p {
@@ -3266,7 +3264,7 @@ align-items: center;
 /* MOBILE EXTRA PICCOLO - 320px */
 @media screen and (max-width: 320px) {
     .TM {
-        font-size: 12pt;
+        font-size: 16px;
     }
 
     .p p {
@@ -3346,7 +3344,7 @@ body {
 .libre2 {
     font-family: "Abhaya Libre ExtraBold", serif;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 40px;
 }
 
 .ricettericette {
@@ -3517,7 +3515,7 @@ body {
     }
 
     .libre2 {
-        font-size: 26pt;
+        font-size: 35px;
     }
 
     .mangiareflex h2 {
@@ -3563,7 +3561,7 @@ body {
     }
 
     .libre2 {
-        font-size: 24pt;
+        font-size: 32px;
     }
 
     .mangiareflex h2 {
@@ -3587,7 +3585,7 @@ body {
     }
 
     .libre2 {
-        font-size: 20pt;
+        font-size: 27px;
     }
 
     .ingredienti ul,
@@ -3642,7 +3640,7 @@ body {
     }
 
     .libre2 {
-        font-size: 18pt;
+        font-size: 24px;
     }
 
     .ricettericette p {
@@ -3695,7 +3693,7 @@ body {
     }
 
     .libre2 {
-        font-size: 16pt;
+        font-size: 22px;
     }
 
     .ingredientiimg {
@@ -3775,7 +3773,7 @@ body {
     }
 
     .libre2 {
-        font-size: 28pt;
+        font-size: 38px;
     }
 
     .ricettericette {
@@ -3841,7 +3839,7 @@ body {
     }
 
     .libre2 {
-        font-size: 22pt;
+        font-size: 36px;
     }
 
     .ricettericette {
@@ -3885,7 +3883,7 @@ body {
     }
 
     .libre2 {
-        font-size: 18pt;
+        font-size: 34px;
     }
 
     .ricettericette {
@@ -3909,7 +3907,7 @@ body {
     }
 
     .libre2 {
-        font-size: 16pt;
+        font-size: 32px;
     }
 
     .ricettericette {
@@ -3933,7 +3931,7 @@ body {
     }
 
     .libre2 {
-        font-size: 14pt;
+        font-size: 30px;
     }
 
     .ricettericette {
@@ -3957,7 +3955,7 @@ body {
     }
 
     .libre2 {
-        font-size: 13pt;
+        font-size: 26px;
     }
 
     .ricettericette {
@@ -3982,7 +3980,7 @@ body {
     }
 
     .libre2 {
-        font-size: 12pt;
+        font-size: 24px;
     }
 
     .ricettericette {
@@ -4006,7 +4004,7 @@ body {
     }
 
     .libre2 {
-        font-size: 11pt;
+        font-size: 22px;
     }
 
     .ricettericette {
