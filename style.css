@@ -758,7 +758,7 @@ h2 {
     }
 
     .testohome {
-        margin-bottom: 15px; 
+        margin-bottom: 10px; 
     }
     
     .avocado {
@@ -1141,7 +1141,7 @@ h2 {
     margin: 0 auto;
 }
 
-.cards-section {
+.cards-section, .cards-section2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1149,13 +1149,13 @@ h2 {
     max-width: 1600px;
 }
 
-.cards-section a {
+.cards-section a, .cards-section2 a {
     display: block;
     text-decoration: none;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.cards-section a:hover {
+.cards-section a:hover, .cards-section2 a:hover {
  transform: translateY(-10px);
 }
 
@@ -1511,7 +1511,7 @@ h2 {
 }
 
 .titoloaddio {
-     margin-top: 40px; ;
+     margin-top: 30px; ;
     }
 
     .cards-section {
@@ -1525,8 +1525,9 @@ h2 {
     }
 
     .addioscuse p{
-        font-size: 20px;
+        font-size: 60px;
     }
+
 
 @media screen and (max-width:800px) {
     .addioscuse p {
